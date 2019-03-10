@@ -1,0 +1,125 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mi himnario",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlaySongByName",
+                    "slots": [
+                        {
+                            "name": "NameOrNumber",
+                            "type": "NameOrNumber"
+                        }
+                    ],
+                    "samples": [
+                        "{NameOrNumber}",
+                        "toca {NameOrNumber}",
+                        "tocar {NameOrNumber}",
+                        "reproduce {NameOrNumber}",
+                        "pon {NameOrNumber}",
+                        "poner {NameOrNumber}",
+                        "empieza {NameOrNumber}",
+                        "abrir {NameOrNumber}",
+                        "abre {NameOrNumber}",
+                        "toque {NameOrNumber}",
+                        "ponga {NameOrNumber}",
+                        "reproducir {NameOrNumber}",
+                        "reproduzca {NameOrNumber}",
+                        "abra {NameOrNumber}",
+                        "empezar {NameOrNumber}",
+                        "interpreta {NameOrNumber}",
+                        "el {NameOrNumber}",
+                        "himno {NameOrNumber}",
+                        "el himno {NameOrNumber}",
+                        "numero {NameOrNumber}",
+                        "el numero {NameOrNumber}",
+                        "toca el {NameOrNumber}",
+                        "toca el numero {NameOrNumber}",
+                        "toca el himno {NameOrNumber}",
+                        "toca el himno numero {NameOrNumber}",
+                        "tocar el {NameOrNumber}",
+                        "tocar el numero {NameOrNumber}",
+                        "tocar el himno {NameOrNumber}",
+                        "tocar el himno numero {NameOrNumber}",
+                        "reproduce el {NameOrNumber}",
+                        "reproduce el numero {NameOrNumber}",
+                        "reproduce el himno {NameOrNumber}",
+                        "reproduce el himno numero {NameOrNumber}",
+                        "pon el {NameOrNumber}",
+                        "pon el numero {NameOrNumber}",
+                        "pon el himno {NameOrNumber}",
+                        "pon el himno numero {NameOrNumber}",
+                        "poner el {NameOrNumber}",
+                        "poner el numero {NameOrNumber}",
+                        "poner el himno {NameOrNumber}",
+                        "poner el himno numero {NameOrNumber}",
+                        "empieza el {NameOrNumber}",
+                        "empieza el numero {NameOrNumber}",
+                        "empieza el himno {NameOrNumber}",
+                        "empieza el himno numero {NameOrNumber}",
+                        "abrir el {NameOrNumber}",
+                        "abrir el numero {NameOrNumber}",
+                        "abrir el himno {NameOrNumber}",
+                        "abrir el himno numero {NameOrNumber}",
+                        "abre el {NameOrNumber}",
+                        "abre el numero {NameOrNumber}",
+                        "abre el himno {NameOrNumber}",
+                        "abre el himno numero {NameOrNumber}",
+                        "toque el {NameOrNumber}",
+                        "toque el numero {NameOrNumber}",
+                        "toque el himno {NameOrNumber}",
+                        "toque el himno numero {NameOrNumber}",
+                        "ponga el {NameOrNumber}",
+                        "ponga el numero {NameOrNumber}",
+                        "ponga el himno {NameOrNumber}",
+                        "ponga el himno numero {NameOrNumber}",
+                        "reproducir el {NameOrNumber}",
+                        "reproducir el numero {NameOrNumber}",
+                        "reproducir el himno {NameOrNumber}",
+                        "reproducir el himno numero {NameOrNumber}",
+                        "reproduzca el {NameOrNumber}",
+                        "reproduzca el numero {NameOrNumber}",
+                        "reproduzca el himno {NameOrNumber}",
+                        "reproduzca el himno numero {NameOrNumber}",
+                        "abra el {NameOrNumber}",
+                        "abra el numero {NameOrNumber}",
+                        "abra el himno {NameOrNumber}",
+                        "abra el himno numero {NameOrNumber}",
+                        "empezar el {NameOrNumber}",
+                        "empezar el numero {NameOrNumber}",
+                        "empezar el himno {NameOrNumber}",
+                        "empezar el himno numero {NameOrNumber}",
+                        "interpreta el {NameOrNumber}",
+                        "interpreta el numero {NameOrNumber}",
+                        "interpreta el himno {NameOrNumber}",
+                        "interpreta el himno numero {NameOrNumber}"
+                    ]
+                }
+            ]
+        }
+    }
+}

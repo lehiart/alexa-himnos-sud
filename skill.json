@@ -1,0 +1,81 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "alexa",
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-MX": {},
+        "es-ES": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "Himnos SUD",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/237e/30155d929ebb41768418fa12fd073c72/APP_ICON?versionId=hlh3kyfn0_16GE1IDMqdccYXs32q1m6E&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551560533&Signature=wxs2PaDyxvft4ZdfIp4Hx%2FsLjfc%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1d7b/fd4c28476b03417e97d09cea8596bd3e/APP_ICON_LARGE?versionId=WI_WXQHC5wI3JsRPk_a9bkcBHrI9WVwQ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551560533&Signature=fdni7tcQvOovzLYp8Y3aGP38hy8%3D",
+          "summary": "Reproduce la música del himnario",
+          "description": "Activa y reproduce los himnos SUD desde tu dispositivo!, puedes pedirlos por nombre o número, incluyen voz e instrumentos.\n\nPrueba diciendo:  \"Pide a himnos sud el número 203\". Una vez que inicia la reproducción, puedes controlar la música con los comandos del reproductor de audio, tales como: pausa, siguiente, anterior.\n\nLa Skill incluye los 209 himnos en español.",
+          "examplePhrases": [
+            "Alexa abre mi himnario",
+            "Alexa, Pide a mi himnario poner el himno 203",
+            "Reproduce el himno Amad a otros"
+          ],
+          "keywords": [
+            "himnos",
+            "mormon",
+            "sud",
+            "himnario",
+            "lds",
+            "himno",
+            "musica",
+            "sud"
+          ]
+        },
+        "es-ES": {
+          "name": "Himnos SUD",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/237e/30155d929ebb41768418fa12fd073c72/APP_ICON?versionId=hlh3kyfn0_16GE1IDMqdccYXs32q1m6E&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551560533&Signature=wxs2PaDyxvft4ZdfIp4Hx%2FsLjfc%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1d7b/fd4c28476b03417e97d09cea8596bd3e/APP_ICON_LARGE?versionId=WI_WXQHC5wI3JsRPk_a9bkcBHrI9WVwQ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1551560533&Signature=fdni7tcQvOovzLYp8Y3aGP38hy8%3D",
+          "summary": "Reproduce la música del himnario",
+          "description": "Activa y reproduce los himnos SUD desde tu dispositivo!, puedes pedirlos por nombre o número, incluyen voz e instrumentos.\n\nPrueba diciendo:  \"Pide a himnos sud el número 203\". Una vez que inicia la reproducción, puedes controlar la música con los comandos del reproductor de audio, tales como: pausa, siguiente, anterior.\n\nLa Skill incluye los 209 himnos en español.",
+          "examplePhrases": [
+            "Alexa abre mi himnario",
+            "Alexa, Pide a mi himnario poner el himno 203",
+            "Reproduce el himno Amad a otros"
+          ],
+          "keywords": [
+            "himnos",
+            "mormon",
+            "sud",
+            "himnario",
+            "lds",
+            "himno",
+            "musica",
+            "sud"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "invoke saying : Abre mi himnario\nthen request by saying the number (valid between 1 to 209) or the name of the song\n\nexamples:\n pon el numero 200, \nreproduce el numero 203,\ntoca el himno amad a otros.",
+      "category": "RELIGION_AND_SPIRITUALITY",
+      "distributionCountries": []
+    }
+  }
+}
